@@ -5,6 +5,7 @@ import About from './components/About';
 import Education from './components/Education';
 import Experience from './components/Experience';
 import Contact from './components/Contact';
+import { Instagram, Facebook, Github } from 'lucide-react';
 
 function App() {
   return (
@@ -24,18 +25,31 @@ function App() {
             <p className="text-gray-400 mb-4">System Engineer</p>
             <div className="flex justify-center space-x-6 mb-4">
               <a
-                href="mailto:umair.faraz@example.com"
+                href="https://www.instagram.com/iamumairfaraz"
                 className="text-gray-400 hover:text-white transition-colors"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
               >
-                GitHub
+                <Instagram className="h-6 w-6 hover:scale-110 transition-transform duration-300" />
+              </a>
+              <a
+                href="https://www.facebook.com/iamumairfaraz"
+                className="text-gray-400 hover:text-white transition-colors"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+              >
+                <Facebook className="h-6 w-6 hover:scale-110 transition-transform duration-300" />
               </a>
               <a
                 href="https://github.com/iamumairfaraz"
                 className="text-gray-400 hover:text-white transition-colors"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="GitHub"
               >
-                GitHub
+                <Github className="h-6 w-6 hover:scale-110 transition-transform duration-300" />
               </a>
             </div>
             <p className="text-gray-500 text-sm">
