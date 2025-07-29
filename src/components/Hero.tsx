@@ -45,7 +45,7 @@ const Hero = () => {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12 animate-fade-in-up animation-delay-800">
             <a
-              href="YOUR_GOOGLE_DRIVE_URL_HERE"
+              href="https://drive.google.com/file/d/1Nz73R-tClcQVUDx1c0JqMt2Sw9X0E8uZ/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 flex items-center gap-2 shadow-lg hover:shadow-xl hover:scale-105 hover:-translate-y-1 group"
